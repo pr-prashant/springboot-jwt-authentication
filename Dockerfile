@@ -1,5 +1,5 @@
 FROM openjdk:11.0.7-jre-slim
-MAINTAINER WU-BDPRealTime-Dev <WU-BDPRealTime-Dev@westernunion.com>
+MAINTAINER Prashant Patel <prashant66999@gmail.com>
 
 # Setting up the application output directory
 RUN mkdir -p /apps; chmod -R 777 /apps
