@@ -8,15 +8,15 @@ RUN mkdir -p /apps; chmod -R 777 /apps
 ADD target/springboot-jwt-authentication*exec.jar /apps/springboot-jwt-authentication.jar
 
 # Setting application environment variables
-#ENV configUrl=https://risk-config-service-v2-dev.openshift.prod.wudip.com
+#ENV configUrl=<config server url>
 #ENV appName=springboot-jwt-authentication
 #ENV env=dev
 #ENV branch=dev
 #ENV serverPort=10080
 
-ENTRYPOINT exec java $JAVA_OPTS -jar /apps/risk-portal-api.jar
+ENTRYPOINT exec java $JAVA_OPTS -jar /apps/springboot-jwt-authentication.jar
 
-#ENTRYPOINT exec java $JAVA_OPTS -jar /apps/risk-portal-api.jar \
+#ENTRYPOINT exec java $JAVA_OPTS -jar /apps/springboot-jwt-authentication.jar \
 # --spring.profiles.active=$env \
 # --spring.cloud.config.uri=$configUrl \
 # --spring.cloud.config.name=$appName \
