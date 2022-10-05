@@ -21,7 +21,7 @@
 		<env>test</env>
 		<java.version>1.8</java.version>
 		<json.version>20180813</json.version>
-		<jackson-databind.version>2.11.1</jackson-databind.version>
+		<jackson-databind.version>2.12.6.1</jackson-databind.version>
 		<jackson-annotations.version>2.11.1</jackson-annotations.version>
 		<apacheds-all.version>1.5.5</apacheds-all.version>
 		<commons-lang3.version>3.8.1</commons-lang3.version>
