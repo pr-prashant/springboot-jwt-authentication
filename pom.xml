@@ -24,7 +24,7 @@
 		<jackson-databind.version>2.11.1</jackson-databind.version>
 		<jackson-annotations.version>2.11.1</jackson-annotations.version>
 		<apacheds-all.version>1.5.5</apacheds-all.version>
-		<commons-lang3.version>3.8.1</commons-lang3.version>
+		<commons-lang3.version>3.18.0</commons-lang3.version>
 	</properties>
 
 	<dependencies>
